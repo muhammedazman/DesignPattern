@@ -40,3 +40,4 @@ pdf/
 .metadata/.plugins/org.eclipse.ui.intro/introstate
 BuilderPattern/.classpath
 BuilderPattern/.project
+/.metadata/
