@@ -1,16 +1,16 @@
 
-public class SingeltanLogger {
+public class SingletonLogger {
 	
 	//eager initialized
 	//private static SingeltanLogger instance = new SingeltanLogger();
 	
-	private static SingeltanLogger instance; 
+	private static SingletonLogger instance; 
 	
-	private SingeltanLogger() {}
+	private SingletonLogger() {}
 	
-	public static synchronized SingeltanLogger getInstance() {
+	public static synchronized SingletonLogger getInstance() {
 		if (instance == null) {
-			instance = new SingeltanLogger();
+			instance = new SingletonLogger();
 		}
 		
 		return instance;
