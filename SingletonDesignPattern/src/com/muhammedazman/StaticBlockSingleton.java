@@ -1,6 +1,7 @@
 package com.muhammedazman;
 
 public class StaticBlockSingleton {
+
     private static StaticBlockSingleton staticBlockSingleton;
 
     static {

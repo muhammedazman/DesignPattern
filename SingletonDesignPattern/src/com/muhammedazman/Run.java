@@ -16,5 +16,7 @@ public class Run {
         StaticBlockSingleton.getStaticBlockSingleton().singletonTest();
 
         LazySingleton.getLazySingleton().singletonTest();
+
+        ThreadSafeSingleton.getThreadSafeSingleton().singletonTest();
     }
 }
