@@ -14,5 +14,7 @@ public class Run {
         EagerInitializationSingleton.getInstance().singletonTest();
 
         StaticBlockSingleton.getStaticBlockSingleton().singletonTest();
+
+        LazySingleton.getLazySingleton().singletonTest();
     }
 }
