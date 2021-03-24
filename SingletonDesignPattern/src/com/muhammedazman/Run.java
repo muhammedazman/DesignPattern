@@ -1,6 +1,6 @@
 package com.muhammedazman;
 
-public class Main {
+public class Run {
 
     /***
      * SINGLETON DESIGN PATTERN
@@ -11,6 +11,6 @@ public class Main {
      * - Bill Pugb Singleton
      */
     public static void main(String[] args) {
-	// write your code here
+        EagerInitializationSingleton.getInstance().singletonTest();
     }
 }
