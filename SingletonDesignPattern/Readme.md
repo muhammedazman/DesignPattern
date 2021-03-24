@@ -1,4 +1,4 @@
-##SINGLETON DESIGN PATTERN##
+##SINGLETON DESIGN PATTERN
 
 - Eager Initialization
 - Static Block initialization
